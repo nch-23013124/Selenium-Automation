@@ -58,5 +58,5 @@ Toàn bộ các dòng lệnh trong kịch bản đều chuyển sang màu xanh l
 ## 5. KẾT LUẬN & BÀI HỌC KINH NGHIỆM
 - **Kết quả đạt được:** Hoàn thành trọn vẹn 100% yêu cầu nội dung bài thực hành Lab 9. Bộ mã kiểm thử tự động chạy ổn định, chính xác, định vị các phần tử (Element Locators) trên trang sản phẩm số 3 chuẩn xác thông qua các thuộc tính ID, LinkText và XPath mà không sinh ra lỗi gián đoạn.
 - **Bài học rút ra:** 
-  - Thấy rõ sự tối ưu vượt trội của Kiểm thử tự động (Automation Testing) thông qua công cụ **Katalon Recorder** so với Kiểm thử thủ công (Manual Testing) về mặt tốc độ và độ chính xác.
-  - Nắm vững cơ chế định vị phần tử trực tiếp từ một URL chỉ định (`/product_details/3`), tạo tiền đề tư duy vững chắc cho việc phát triển các Framework Automation chuyên sâu bằng mã code sau này.
+Thấy rõ sự tối ưu vượt trội của Kiểm thử tự động (Automation Testing) thông qua công cụ **Katalon Recorder** so với Kiểm thử thủ công (Manual Testing) về mặt tốc độ và độ chính xác.
+  
