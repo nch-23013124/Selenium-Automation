@@ -1,21 +1,16 @@
 # BÁO CÁO BÀI THỰC HÀNH LAB 9: KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM (KATALON RECORDER)
 
----
 
 ## 1. MỤC TIÊU BÀI LAB
 - **Kiến thức:** Tiếp cận và hiểu rõ nguyên lý vận hành của kiểm thử tự động (Automation Testing) trên giao diện người dùng (UI Testing).
 - **Công cụ:** Thành thạo cách cài đặt, cấu hình và sử dụng công cụ **Katalon Recorder** để thực hiện ghi nhận kịch bản (Record), quản lý cấu trúc lệnh và thực thi lại tự động (Playback).
 - **Kỹ năng:** Phân tích giao diện Web (UI), thiết kế kịch bản kiểm thử (Test Cases) hoàn chỉnh cho luồng tính năng cốt lõi của một hệ thống thương mại điện tử và đánh giá trạng thái đạt/không đạt (Pass/Fail) của hệ thống.
 
----
-
 ## 2. MÔI TRƯỜNG VÀ ĐỐI TƯỢNG KIỂM THỬ
 - **Công cụ thực hiện chính:** **Katalon Recorder Extension** (Nền tảng kiểm thử tự động trực quan).
 - **Ngôn ngữ kịch bản cấu phần:** Java WebDriver (JUnit Framework).
 - **Website thử nghiệm:** Automation Exercise 
 - **Trang đích thực hiện kịch bản:** `https://automationexercise.com/product_details/3` (Trang thông tin chi tiết của sản phẩm cụ thể mã số 3).
-
----
 
 ## 3. KỊCH BẢN KIỂM THỬ CHI TIẾT (TEST CASES)
 
@@ -44,8 +39,6 @@ Toàn bộ luồng kiểm thử được tích hợp liên tục (End-to-End) th
   3. Khi cửa sổ Popup modal xác nhận thêm thành công hiện lên, click vào nút `Continue Shopping` để đóng bảng thông báo.
 - **Kết quả mong đợi (Expected Result):** Sản phẩm được ghi nhận vào giỏ hàng thành công, popup đóng lại mượt mà, hệ thống không xảy ra xung đột giao diện.
 
----
-
 ## 4. KẾT QUẢ THỰC THI (TEST RESULTS)
 
 Khi kích hoạt tính năng **"Play Test Case"** (Playback) trên **Katalon Recorder**, công cụ đã tự động thực thi lại toàn bộ chuỗi hành động trên một cách trơn tru.
@@ -61,7 +54,6 @@ Toàn bộ các dòng lệnh trong kịch bản đều chuyển sang màu xanh l
 Để tăng tính chuyên nghiệp và sẵn sàng mở rộng dự án, kịch bản kiểm thử trên đã được xuất (Export) trực tiếp ra mã nguồn ngôn ngữ lập trình. 
 - **Tên file đính kèm:** `KatalonSeleniumTest.java` (Sử dụng cấu trúc `Java (WebDriver + JUnit)`) được lưu trữ ngay trong thư mục gốc của Repository này.
 
----
 
 ## 5. KẾT LUẬN & BÀI HỌC KINH NGHIỆM
 - **Kết quả đạt được:** Hoàn thành trọn vẹn 100% yêu cầu nội dung bài thực hành Lab 9. Bộ mã kiểm thử tự động chạy ổn định, chính xác, định vị các phần tử (Element Locators) trên trang sản phẩm số 3 chuẩn xác thông qua các thuộc tính ID, LinkText và XPath mà không sinh ra lỗi gián đoạn.
