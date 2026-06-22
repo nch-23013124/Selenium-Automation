@@ -1,7 +1,6 @@
 # BÁO CÁO BÀI THỰC HÀNH LAB 9: KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM (KATALON RECORDER)
 
 ---
-
 ## 1. MỤC TIÊU BÀI LAB
 - **Về kiến thức:** Tiếp cận và hiểu rõ nguyên lý vận hành của kiểm thử tự động (Automation Testing) trên giao diện người dùng (UI Testing).
 - **Về công cụ:** Thành thạo cách cài đặt, cấu hình và sử dụng công cụ Katalon Recorder (nền tảng cải tiến của Selenium) để thực hiện ghi nhận kịch bản (Record), chỉnh sửa cấu trúc lệnh và thực thi lại tự động (Playback).
