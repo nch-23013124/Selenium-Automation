@@ -1,14 +1,11 @@
-# BÁO CÁO BÀI THỰC HÀNH LAB 9: KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM (KATALON RECORDER)
-
+  # BÁO CÁO BÀI THỰC HÀNH LAB 9: KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM (KATALON RECORDER)
 
 ## 1. MỤC TIÊU BÀI LAB
-
 - **Kiến thức:** Tiếp cận và hiểu rõ nguyên lý vận hành của kiểm thử tự động (Automation Testing) trên giao diện người dùng (UI Testing).
 - **Công cụ:** Thành thạo cách cài đặt, cấu hình và sử dụng công cụ **Katalon Recorder** để thực hiện ghi nhận kịch bản (Record), quản lý cấu trúc lệnh và thực thi lại tự động (Playback).
 - **Kỹ năng:** Phân tích giao diện Web (UI), thiết kế kịch bản kiểm thử (Test Cases) hoàn chỉnh cho luồng tính năng cốt lõi của một hệ thống thương mại điện tử và đánh giá trạng thái đạt/không đạt (Pass/Fail) của hệ thống.
 
 ## 2. MÔI TRƯỜNG VÀ ĐỐI TƯỢNG KIỂM THỬ
-
 - **Công cụ thực hiện chính:** **Katalon Recorder Extension** (Nền tảng kiểm thử tự động trực quan).
 - **Ngôn ngữ kịch bản cấu phần:** Java WebDriver (JUnit Framework).
 - **Website thử nghiệm:** Automation Exercise 
@@ -51,9 +48,12 @@ Toàn bộ các dòng lệnh trong kịch bản đều chuyển sang màu xanh l
 *(Hình ảnh minh chứng kết quả chạy Playback thực tế trên trình duyệt)*
 <img width="605" height="354" alt="katalon" src="https://github.com/user-attachments/assets/7aa74c52-f345-42f0-82e7-79312e35bb67" />
 
-## 5. KẾT LUẬN
+### 4.2. File mã nguồn đính kèm (Source Code)
+Để tăng tính chuyên nghiệp và sẵn sàng mở rộng dự án, kịch bản kiểm thử trên đã được xuất (Export) trực tiếp ra mã nguồn ngôn ngữ lập trình. 
+- **Tên file đính kèm:** `KatalonSeleniumTest.java` (Sử dụng cấu trúc `Java (WebDriver + JUnit)`) được lưu trữ ngay trong thư mục gốc của Repository này.
 
+## 5. KẾT LUẬN & BÀI HỌC KINH NGHIỆM
 - **Kết quả đạt được:** Hoàn thành trọn vẹn 100% yêu cầu nội dung bài thực hành Lab 9. Bộ mã kiểm thử tự động chạy ổn định, chính xác, định vị các phần tử (Element Locators) trên trang sản phẩm số 3 chuẩn xác thông qua các thuộc tính ID, LinkText và XPath mà không sinh ra lỗi gián đoạn.
 - **Bài học rút ra:** 
-Thấy rõ sự tối ưu vượt trội của Kiểm thử tự động (Automation Testing) thông qua công cụ **Katalon Recorder** so với Kiểm thử thủ công (Manual Testing) về mặt tốc độ và độ chính xác.
-  
+  - Thấy rõ sự tối ưu vượt trội của Kiểm thử tự động (Automation Testing) thông qua công cụ **Katalon Recorder** so với Kiểm thử thủ công (Manual Testing) về mặt tốc độ và độ chính xác.
+  - Nắm vững cơ chế định vị phần tử trực tiếp từ một URL chỉ định (`/product_details/3`), tạo tiền đề tư duy vững chắc cho việc phát triển các Framework Automation chuyên sâu bằng mã code sau này.
